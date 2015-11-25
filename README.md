@@ -22,10 +22,11 @@ the tpye for these coloumns is  varchar40
 In the V studio 
 in the Mainwindwo.xaml.cs 
 
-change the connexion string     myConnection = new SqlConnection("Server=KHALIDBELLAJ-PC;Database=ear;Trusted_Connection=True");
-
-by your information(server...)
+change the connexion string     myConnection = new SqlConnection("Server=server-PC;Database=ear;Trusted_Connection=True");
 
 -------------
 
 chen you start compilation you can add (marks) any point and when you restart again you'll get the previous points
+
+
+NB : Viewport3D (3D scene)   contain  the various ModelVisual3D elements (3D objects).
